@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import './Notification.css';
-import { BsCheckCircle } from "react-icons/bs";
+import { BsCheckCircle } from 'react-icons/bs';
 
 const Notification = ({ message, onClose, color }) => {
     const [show, setShow] = useState(true);

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { IoMdArrowDropdown } from "react-icons/io";
+import { IoMdArrowDropdown } from 'react-icons/io';
 import './OptionList.css';
 
 const OptionList = ({ value, onChange, options, clase, clase2 }) => {

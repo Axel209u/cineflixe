@@ -1,5 +1,4 @@
-import { styled } from 'styled-components';
-import { BsInstagram, BsLinkedin } from "react-icons/bs";
+;import styled from 'styled-components';
 import './Footer.css';
 import logo from '../../assets/logo.png';
 import { FaLinkedin, FaSquareGithub } from 'react-icons/fa6';

@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import './Card.css';
-import { RiDeleteBin2Line, RiEdit2Line } from "react-icons/ri";
+import { RiDeleteBin2Line, RiEdit2Line } from 'react-icons/ri';
+
 
 const Card = ({ datos, primaryColor, onClick, onDelete, onEdit }) => {
     const { title, photo } = datos;
